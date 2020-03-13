@@ -1,0 +1,31 @@
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 14rem;
+  border: 4px dashed #EE103D;
+  text-align: center;
+}
+
+.dropzone > svg {
+  width: 22px;
+  height: 22px;
+}
+
+.dropzone > h3 {
+  margin: 0rem;
+}
+
+.dropzone > input {
+  display: none;
+}
+
+.dropzone > label {
+  align-self: center;
+  padding: .8rem 1rem;
+  color: #f6f6f6;
+  background-color: #EE103D;
+  border-radius: 5px;
+}
+
